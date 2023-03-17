@@ -6,7 +6,8 @@
   max-width: 95%;
 } */
 /* Card component styles */
-.card {
+
+/* .card {
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
@@ -23,7 +24,6 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Expenses list styles */
 .expenses {
   display: grid;
   grid-template-columns: 1fr;
@@ -47,4 +47,12 @@
   .expenses {
     grid-template-columns: repeat(4, 1fr);
   }
+} */
+
+.expenses {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
