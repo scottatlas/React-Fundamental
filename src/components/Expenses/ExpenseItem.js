@@ -3,6 +3,9 @@ import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 
 function ExpenseItem(props) {
+  //useState always return an array contains 2 values
+  //const [title, setTitle] = useState(props.title);
+
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
